@@ -106,6 +106,8 @@
 <meta name="twitter:description" content="I am a web developer, UX/UI designer and lifelong learner interested in everything. Now I focus on Human-Computer Interaction.">
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="HUHU CODESIGN X LAB" type="application/atom+xml">
 
@@ -643,6 +645,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: false,
+    appId: 'IJKkcrnCG2Vh5CYJkxSyGDbX-gzGzoHsz',
+    appKey: 'jBOuQJrfXNQGoVSWiYl23s2M',
+    placeholder: 'Leave your message here...',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
 
