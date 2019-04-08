@@ -106,6 +106,8 @@
 <meta name="twitter:description" content="Machine Learning list 1page list 2  More: https://huhuwithcode.github.io/archives/">
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="HUHU CODESIGN X LAB" type="application/atom+xml">
 
@@ -411,6 +413,13 @@
           
 
   
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
 
 
 
@@ -679,6 +688,40 @@
 
   
 
+
+  
+    <!-- LOCAL: You can save these files to your site and update links -->
+
+  
+  <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitmint.browser.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css">
+<!-- END LOCAL -->
+
+<script>
+  function renderGitment() {
+    var gitment = new Gitmint({
+      id: window.location.pathname,
+      owner: 'huhuwithcode',
+      repo: 'huhuwithcode.github.io',
+      
+        lang: '' || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+      
+      oauth: {
+      
+      
+        client_secret: '678a23796f3c9a81fba3ac20299c45201554754c',
+      
+        client_id: 'fcf59a98aafc3820dc07'
+      }
+    });
+    gitment.render('gitment-container');
+  }
+
+  
+    renderGitment();
+  
+</script>
 
   
 
