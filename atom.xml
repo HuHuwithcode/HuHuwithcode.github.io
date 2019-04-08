@@ -5,9 +5,9 @@
   <subtitle>Stay Inspired</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://huhuwithcode.github.io/"/>
   <updated>2019-04-07T11:17:04.468Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://huhuwithcode.github.io/</id>
   
   <author>
     <name>Siying Hu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/04/07/hello-world/"/>
-    <id>http://yoursite.com/2019/04/07/hello-world/</id>
+    <link href="https://huhuwithcode.github.io/2019/04/07/hello-world/"/>
+    <id>https://huhuwithcode.github.io/2019/04/07/hello-world/</id>
     <published>2019-04-07T11:17:04.468Z</published>
     <updated>2019-04-07T11:17:04.468Z</updated>
     
