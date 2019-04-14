@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://huhuwithcode.github.io/"/>
-  <updated>2019-04-13T15:40:22.699Z</updated>
+  <updated>2019-04-14T08:35:24.951Z</updated>
   <id>https://huhuwithcode.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fluency</title>
+    <link href="https://huhuwithcode.github.io/2019/04/14/Fluency/"/>
+    <id>https://huhuwithcode.github.io/2019/04/14/Fluency/</id>
+    <published>2019-04-14T01:41:10.000Z</published>
+    <updated>2019-04-14T08:35:24.951Z</updated>
+    
+    <content type="html"><![CDATA[<p>[February 2019 - Present]<br>Course: Physical Computing</p><p>“Fluency” is a gamified experience in which users will be given a sentence on a screen with a single word missing. This is an open-end game for language beginner to learn new language by using physical object.</p><a id="more"></a><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p><img src="https://i.imgur.com/xL183ES.png" alt></p><p>The concept is a gamified experience in which users will be given a sentence on a screen with a single word missing. The screen will also show a scenario which represents the sentence. The user will fill in the missing word by building it using physical blocks. Each block will textually represent a character of the language being learned. The scenario is dynamic and time, if the user is not able to build the word in time, the scenario will show a ‘fail scene’, whereas if the word is constructed in time, the scenario will show a ‘win scene’. If the user builds a word that is not the correct word but still makes sense in some way, a ‘fail scene’ will still be displayed but the scene will be altered to represent the incorrect sentence. For example; if English is the language being learned and the sentence is ‘I’m going to _ this ball, the screen could show a ball being launched towards a character holding a bat. The user may only have 5 seconds to construct the word ‘hit’. If the user is successful, the character will hit the ball and the level will be complete. If the user is not able to build a word that makes sense, the ball may hit the character on the screen and the user will fail the level. If the user builds the word ‘punch’, they will still fail the level but the character will punch the ball instead.</p><h2 id="Teammates"><a href="#Teammates" class="headerlink" title="Teammates"></a>Teammates</h2><p>Alan Brown, Tee Han Ong, Yue Feng, Siying HU</p><h2 id="Project-Description"><a href="#Project-Description" class="headerlink" title="Project Description"></a>Project Description</h2><h4 id="Exploration-of-technology-approach"><a href="#Exploration-of-technology-approach" class="headerlink" title="Exploration of technology approach"></a>Exploration of technology approach</h4><p>We have discovered several methods in terms of implementing our idea. The form of the idea has been decided to be a web-based game in which it could interact with the blocks and the hand gesture of the user. Hence, the main focus is to look into what are the technology which could achieve what we wish to implement. The first thing that came into our mind was to utilize the unique identifier of RFID cards. Each RFID card would be placed in each side of the block signifying different characters of words to be detected from our system afterwards. Whilst the gesture part implementations are decided to be achieved by utilising the Kinect behaviour which could identify different movements of humans. We will still look into other potential technologies approaches such as AR, or image recognition, to test them out in our system and thus decide on what is the most feasible approach in order for us to achieve the intended outcome for our system. We will work in parallel, trying out different technologies to implement the key features of our system, so the conclusion on the technological approach could be finalised as soon as possible.</p><p><img src="https://i.imgur.com/qwDjkvV.jpg" alt></p><p><img src="https://i.imgur.com/oFFEuxx.jpg" alt></p><h4 id="Working-Process"><a href="#Working-Process" class="headerlink" title="Working Process"></a>Working Process</h4><p>In terms of the physical hardware, we looked into which RFID reader would be the most beneficial. The team borrowed the “Sparkfun RFID shield” as well as various RFID cards and tokens from the lab in order to test it. We found that the sparkfun shield didn’t seem to detect many of the RFID cards, later on we discovered that this is because the cards were not of the right frequency to be detected by that certain RFID reader. On Tuesday, we also tested an alternative RFID reader which plugs straight into the laptop rather than through arduino. We realised that this would be much easier as it would allow us to read straight from the RFID into Unity rather than through the arduino as well. This RFID reader also read the majority of cards at the lab due to the frequency it reads at. Unfortunately, we discovered that the reader wasn’t able to write/program the cards. However, one of the tutors mentioned that Android phones can write to cards and one of our group members tried this and found it to be easy. This member has taken the RFID reader and cards home for further testing. We also decided that we can put a box over the laptop to abstract the technological implementation from the users. Therefore, at the moment, the ‘plug in’ RFID reader seems like the best choice as the actual interaction only requires reading.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[February 2019 - Present]&lt;br&gt;Course: Physical Computing&lt;/p&gt;
+&lt;p&gt;“Fluency” is a gamified experience in which users will be given a sentence on a screen with a single word missing. This is an open-end game for language beginner to learn new language by using physical object.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Working-in-Process Project" scheme="https://huhuwithcode.github.io/categories/Working-in-Process-Project/"/>
+    
+    
+      <category term="Game" scheme="https://huhuwithcode.github.io/tags/Game/"/>
+    
+      <category term="RFID" scheme="https://huhuwithcode.github.io/tags/RFID/"/>
+    
+      <category term="Low-Poly" scheme="https://huhuwithcode.github.io/tags/Low-Poly/"/>
+    
+  </entry>
   
   <entry>
     <title>BeUpStanding</title>
@@ -75,6 +102,31 @@
   </entry>
   
   <entry>
+    <title>Anxiety Eliminator Game</title>
+    <link href="https://huhuwithcode.github.io/2019/04/09/Anxiety-Eliminator-Game/"/>
+    <id>https://huhuwithcode.github.io/2019/04/09/Anxiety-Eliminator-Game/</id>
+    <published>2019-04-09T12:41:16.000Z</published>
+    <updated>2019-04-13T15:40:02.369Z</updated>
+    
+    <content type="html"><![CDATA[<p>[July 2017 - November 2017]</p><p> “Anxiety Eliminator” is an interactive&amp;digital game prototype built by using the Unity(C#) and involve some forms of physical interaction by using the Leap Motion and MakeyMakey.</p><a id="more"></a><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Anxiety Eliminator is an interactive &amp; digital game prototype built by using the Unity and involve some form of physical interaction by using the Leap Motion and MakeyMakey. Players need to match the music and tap the schematic pattern in the game prototype. The player operates the digital game prototype mainly by their gestures activities or by hitting physical objects.</p><ul><li><p>User Study &amp; More Details:<br><a href>Github Wiki</a></p></li><li><p>Promotional Material：<br><a href>Download</a></p></li></ul><h2 id="The-Game-Form"><a href="#The-Game-Form" class="headerlink" title="The Game Form"></a>The Game Form</h2><p>The form of this game consist on two part - Unity product and Physical Input, which connect together by MakeyMakey. In this test, the change of form is the physical input. I use the Twister’s game blanket as a wider control area and use an insulating tape to hold the touch points of aluminum foil onto the blanket. Finally, use the wire to connect the touch point to MakeyMakey.</p><p><img src="https://i.imgur.com/eBhjdbc.png" alt><br><img src="https://i.imgur.com/5Id3T8E.png" alt><br><img src="https://i.imgur.com/7f5s9Z0.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[July 2017 - November 2017]&lt;/p&gt;
+&lt;p&gt; “Anxiety Eliminator” is an interactive&amp;amp;digital game prototype built by using the Unity(C#) and involve some forms of physical interaction by using the Leap Motion and MakeyMakey.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Fun Project" scheme="https://huhuwithcode.github.io/categories/Fun-Project/"/>
+    
+    
+      <category term="Unity" scheme="https://huhuwithcode.github.io/tags/Unity/"/>
+    
+      <category term="Makeymakey" scheme="https://huhuwithcode.github.io/tags/Makeymakey/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Super Survivor 2.5D Game</title>
     <link href="https://huhuwithcode.github.io/2019/04/09/Super-Survivor-2-5D-Game/"/>
     <id>https://huhuwithcode.github.io/2019/04/09/Super-Survivor-2-5D-Game/</id>
@@ -104,31 +156,6 @@
   </entry>
   
   <entry>
-    <title>Anxiety Eliminator Game</title>
-    <link href="https://huhuwithcode.github.io/2019/04/09/Anxiety-Eliminator-Game/"/>
-    <id>https://huhuwithcode.github.io/2019/04/09/Anxiety-Eliminator-Game/</id>
-    <published>2019-04-09T12:41:16.000Z</published>
-    <updated>2019-04-13T15:40:02.369Z</updated>
-    
-    <content type="html"><![CDATA[<p>[July 2017 - November 2017]</p><p> “Anxiety Eliminator” is an interactive&amp;digital game prototype built by using the Unity(C#) and involve some forms of physical interaction by using the Leap Motion and MakeyMakey.</p><a id="more"></a><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Anxiety Eliminator is an interactive &amp; digital game prototype built by using the Unity and involve some form of physical interaction by using the Leap Motion and MakeyMakey. Players need to match the music and tap the schematic pattern in the game prototype. The player operates the digital game prototype mainly by their gestures activities or by hitting physical objects.</p><ul><li><p>User Study &amp; More Details:<br><a href>Github Wiki</a></p></li><li><p>Promotional Material：<br><a href>Download</a></p></li></ul><h2 id="The-Game-Form"><a href="#The-Game-Form" class="headerlink" title="The Game Form"></a>The Game Form</h2><p>The form of this game consist on two part - Unity product and Physical Input, which connect together by MakeyMakey. In this test, the change of form is the physical input. I use the Twister’s game blanket as a wider control area and use an insulating tape to hold the touch points of aluminum foil onto the blanket. Finally, use the wire to connect the touch point to MakeyMakey.</p><p><img src="https://i.imgur.com/eBhjdbc.png" alt><br><img src="https://i.imgur.com/5Id3T8E.png" alt><br><img src="https://i.imgur.com/7f5s9Z0.png" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[July 2017 - November 2017]&lt;/p&gt;
-&lt;p&gt; “Anxiety Eliminator” is an interactive&amp;amp;digital game prototype built by using the Unity(C#) and involve some forms of physical interaction by using the Leap Motion and MakeyMakey.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Fun Project" scheme="https://huhuwithcode.github.io/categories/Fun-Project/"/>
-    
-    
-      <category term="Unity" scheme="https://huhuwithcode.github.io/tags/Unity/"/>
-    
-      <category term="Makeymakey" scheme="https://huhuwithcode.github.io/tags/Makeymakey/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Spoon Pets</title>
     <link href="https://huhuwithcode.github.io/2019/04/08/Spoon-Pets/"/>
     <id>https://huhuwithcode.github.io/2019/04/08/Spoon-Pets/</id>
@@ -147,11 +174,11 @@
       <category term="Completed Projects" scheme="https://huhuwithcode.github.io/categories/Completed-Projects/"/>
     
     
-      <category term="App" scheme="https://huhuwithcode.github.io/tags/App/"/>
-    
       <category term="HCI" scheme="https://huhuwithcode.github.io/tags/HCI/"/>
     
       <category term="human-centre design" scheme="https://huhuwithcode.github.io/tags/human-centre-design/"/>
+    
+      <category term="App" scheme="https://huhuwithcode.github.io/tags/App/"/>
     
   </entry>
   
